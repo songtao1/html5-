@@ -1,0 +1,604 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+html {
+    font-size: 50px;
+}
+
+body {
+    font-size: 0.24rem;
+    /* overflow: hidden; */
+}
+
+img {
+    vertical-align: top;
+    border: none
+}
+
+header {
+    position: fixed;
+    width: 92%;
+    top: 0;
+    left: 0;
+    height: 0.9rem;
+    background-color: #000;
+    padding: 0 4%;
+    display: flex;
+    justify-content: space-between;
+    z-index: 10;
+}
+
+header img {
+    width: 2.5rem;
+    height: 0.88rem;
+}
+
+button {
+    outline: none;
+    border: none;
+}
+
+header button {
+    float: left;
+    display: inline-block;
+    width: 1.4rem;
+    height: .45rem;
+    background-color: #1434E1;
+    border-radius: 2px;
+    font-size: 12px;
+    color: #fff;
+    margin-right: .48rem;
+    margin-top: 0.2rem;
+}
+
+header span {
+    float: left;
+    display: inline-block;
+    width: 0.4rem;
+    height: 0.36rem;
+    background: url(/img/mobile_list.png) no-repeat;
+    background-size: cover;
+    margin-top: 0.22rem;
+}
+
+nav {
+    margin-top: 0.9rem;
+    padding-top: .56rem;
+    height: 6.2rem;
+    background: url(/img/mobile_banner.jpg) no-repeat;
+    background-size: cover;
+}
+
+nav h4 {
+    font-size: 18px;
+    color: #fff;
+    font-weight: bold;
+    margin-bottom: .2rem;
+    text-align: center;
+}
+
+nav ul {
+    margin-left: 10%;
+}
+
+nav ul li {
+    display: flex;
+    overflow: hidden;
+    margin-top: .2rem;
+}
+
+nav ul li span {
+    float: left;
+    width: 0.1rem;
+    height: 0.1rem;
+    background: #fff;
+    border-radius: 10px;
+    margin-top: 0.08rem;
+    margin-right: 0.1rem;
+}
+
+nav ul li p {
+    float: left;
+    font-size: 0.18rem;
+    color: #fff;
+}
+
+nav img {
+    display: block;
+    width: 5.37rem;
+    height: 2.15rem;
+    margin: 0.5rem auto 0.4rem;
+}
+
+.item1 {
+    overflow: auto;
+    /* height: 10.33rem; */
+    background: #FAFAFB;
+    padding: 1rem 0;
+    /* position: relative; */
+}
+
+.item1 h4 {
+    font-size: 17px;
+    text-align: center;
+}
+
+.item1 ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.item1 .item1_ul1 {
+    padding-top: 0.6rem;
+}
+
+.item1 .item1_ul1 li {
+    width: 1.2rem;
+    height: .4rem;
+    line-height: .4rem;
+    background: #FFFFFF;
+    box-shadow: 0 14px 26px 0 rgba(194, 196, 204, 0.30);
+    border-radius: 3px;
+    font-size: 0.02rem;
+    text-align: center;
+}
+
+.item1 .item1_ul1 li:last-child {
+    border: none;
+}
+
+.item1 .item1_ul1 li:nth-child(2) {
+    margin-right: 0.7rem;
+}
+
+.item1 .item1_ul1 li:nth-child(3) {
+    margin-right: 0.7rem;
+}
+
+.item1_ul2 {
+    padding: 0.48rem 0;
+    width: 90%;
+    margin: 0 auto;
+    border-bottom: 1px dashed #c1c3ca4d;
+}
+
+.item1_ul2:last-child {
+    border-bottom: none;
+}
+
+.item1_ul2 li:nth-child(1) {
+    width: 1.04rem;
+    height: 1.04rem;
+    background: url(https://public.feeclouds.com/homepage/etc_landing_img/etc_need_first.png) no-repeat;
+    background-size: cover;
+    margin-top: -0.1rem;
+}
+
+.item1_ul3 li:nth-child(1) {
+    width: 1.04rem;
+    height: 1.04rem;
+    background: url(https://public.feeclouds.com/homepage/etc_landing_img/etc_need_sec.png) no-repeat;
+    background-size: cover;
+    margin-top: -0.1rem;
+}
+
+.item1_ul4 li:nth-child(1) {
+    width: 1.04rem;
+    height: 1.04rem;
+    background: url(https://public.feeclouds.com/homepage/etc_landing_img/etc_need_third.png) no-repeat;
+    background-size: cover;
+    margin-top: -0.1rem;
+}
+
+.item1_ul5 li:nth-child(1) {
+    width: 1.04rem;
+    height: 1.04rem;
+    background: url(https://public.feeclouds.com/homepage/etc_landing_img/etc_need_di.png) no-repeat;
+    background-size: cover;
+    margin-top: -0.1rem;
+}
+
+.item1_ul2 li:nth-child(1) p {
+    font-size: 0.02rem;
+    width: 1.12rem;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.item1_ul2 li:nth-child(2),
+.item1_ul2 li:nth-child(3) {
+    background: #fff;
+    width: 2.20rem;
+    height: 0.90rem;
+    box-shadow: 0 14px 26px 0 rgba(194, 196, 204, 0.30);
+    border-radius: 5px;
+    font-size: 0.03rem;
+    color: #7B848D;
+    text-align: center;
+    line-height: 0.3rem;
+    padding-top: 0.2rem;
+}
+
+.item1_ul2 li:nth-child(2) span {
+    color: #FF5A5B;
+    font-size: 0.02rem;
+}
+
+.item1_ul2 li:nth-child(3) {
+    color: #3389FF;
+}
+
+.dashCon {
+    position: relative;
+}
+
+.dashed {
+    width: 94%;
+    /* margin: 0 auto; */
+    /* border-bottom: 1px dashed #c1c3ca4d; */
+    position: absolute;
+    left: 3%;
+    top: 1.6rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.dashed img {
+    /* position: absolute; */
+    width: .12rem;
+    height: 0.9rem;
+    /* left: 2.8rem;
+    top: -0.44rem; */
+}
+
+.dashed img:nth-child(2) {
+    margin-right: 0.7rem;
+    width: .1rem;
+}
+
+.dashed img:nth-child(3) {
+    margin-right: 0.5rem;
+}
+
+.item2 {
+    background: #fff;
+}
+
+.cost {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cost div {
+    width: 50%;
+    text-align: center;
+    margin-top: 0.48rem;
+}
+
+.cost div img {
+    width: 1.96rem;
+    height: 1.96rem;
+}
+
+.cost div p {
+    color: #344563;
+    font-size: 12px;
+    margin: 0.2rem 0 0.15rem 0;
+}
+
+.cost .content {
+    color: #7B848D;
+    font-size: 0.16rem;
+}
+
+.item2 button {
+    display: block;
+    width: 3.5rem;
+    height: 0.8rem;
+    text-align: center;
+    line-height: 0.8rem;
+    color: #fff;
+    background: #1434E1;
+    margin: 0 auto;
+    border-radius: 4px;
+    margin-top: 0.8rem;
+}
+
+.customer {
+    margin-top: 0.64rem;
+    display: flex;
+    width: 90%;
+    padding: 5%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.customer li {
+    flex: 1;
+    width: 30%;
+    text-align: center;
+}
+
+.customer li img {
+    width: 2rem;
+    height: 0.9rem;
+}
+
+.honor_title {
+    margin: -0.2rem 0 0.1rem;
+}
+
+.honor_desc {
+    color: #344563;
+    font-size: 0.02rem;
+    text-align: center;
+}
+
+.honorCon {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 0.49rem;
+}
+
+.honorCon img {
+    width: 2.16rem;
+    height: 3rem;
+}
+
+.footer1 {
+    height: 2.72rem;
+    background: url(/img/mobile_footer.jpg) no-repeat;
+    background-size: cover;
+}
+
+.footer1 h4 {
+    color: #fff;
+    font-size: 17px;
+    text-align: center;
+    line-height: 1.5rem;
+}
+
+.footer1 button {
+    display: block;
+    margin: 0 auto;
+    width: 3.5rem;
+    height: 0.8rem;
+    background: #1434E1;
+    text-align: center;
+    line-height: 0.8rem;
+    color: #fff;
+    font-size: 15px;
+    border-radius: 4px;
+    margin-bottom: 0.3rem;
+}
+
+footer {
+    height: 1.42rem;
+    background: #000;
+    margin-top: -1px;
+    padding-top: 0.3rem;
+    color: #fff;
+}
+
+footer .call {
+    font-size: 15px;
+    text-align: center;
+}
+
+footer .copy {
+    text-align: center;
+    font-size: 0.02rem;
+    margin-top: 0.2rem;
+}
+
+.sigin {
+    /* display: none; */
+    position: fixed;
+    width: 90%;
+    height: 7rem;
+    top: -100%;
+    left: 50%;
+    margin-left: -45%;
+    background: #fff;
+    border-radius: 5px;
+    padding-top: 1rem;
+    z-index: 20;
+    transition: all 0.5s;
+}
+
+#registerForm input {
+    display: block;
+    width: 80%;
+    height: 0.3rem;
+    line-height: 0.7rem;
+    margin: 0.3rem auto 0;
+    font-size: 12px;
+    padding: 0.2rem;
+    background: #FFFFFF;
+    border: 1px solid #C1C7CF;
+    border-radius: 6.76px;
+    outline: none;
+}
+
+#registerForm .code_input {
+    width: 2.5rem;
+    margin: 0.3rem 0;
+}
+
+#freeCode {
+    display: inline-block;
+    width: 1.78rem;
+    height: .7rem;
+    background: #FFFFFF;
+    border: 1px solid #C1C7CF;
+    border-radius: 6.76px;
+    color: #1434E1;
+    text-align: center;
+    line-height: .7rem;
+    margin: 0.3rem 0;
+}
+
+#registerForm .sms_code {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 7%;
+}
+
+#submit {
+    display: block;
+    background: #3389FF;
+    border-radius: 6.76px;
+    width: 4rem;
+    height: .7rem;
+    text-align: center;
+    line-height: .7rem;
+    font-size: 14px;
+    color: #fff;
+    margin: .5rem auto 0;
+}
+
+.form-item {
+    position: relative;
+}
+
+#mask {
+    display: none;
+    background: rgba(0, 0, 0, 0.30);
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 15;
+    overflow: hidden;
+    width: 100%;
+    height: 100vh;
+}
+
+.form-item .tips {
+    position: absolute;
+    bottom: -16px;
+    left: 25px;
+    width: 160px;
+    height: 20px;
+    line-height: 20px;
+    font-size: 12px;
+    color: #dc3545;
+}
+
+.form-item .lastTips {
+    bottom: -4px;
+}
+
+#close {
+    position: absolute;
+    right: .4rem;
+    top: .4rem;
+    z-index: 102;
+    width: 0.5rem;
+    height: 0.5rem;
+    background: url(https://public.feeclouds.com/homepage/etc_landing_img/etc_close.png) no-repeat;
+    background-size: cover;
+    cursor: pointer;
+}
+
+.sigin .title {
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.success {
+    display: none;
+}
+
+.success h4 {
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 2rem;
+}
+
+.success p {
+    font-size: 12px;
+    text-align: center;
+    margin-top: 0.2rem;
+}
+
+.sigin .sigin_desc {
+    font-size: 12px;
+    text-align: center;
+    margin-bottom: 0.2rem;
+}
+
+.showSigin {
+    /* display: block; */
+    overflow: hidden;
+    top: 20%;
+    transition: all 1s;
+}
+
+#bg {
+    display: block;
+}
+
+aside {
+    position: fixed;
+    bottom: 10%;
+    right: -1.25rem;
+    width: 1.25rem;
+    height: .77rem;
+    background: #1434E1 url(https://public.feeclouds.com/homepage/etc_landing_img/etc_phone.png) left center no-repeat;
+    background-size: .77rem .77rem;
+    font-size: 0.02rem;
+    color: #fff;
+    padding-left: .87rem;
+    z-index: 5;
+    line-height: .77rem;
+    transition: all 0.3s;
+    border-radius: 4px 0 0 4px;
+}
+
+.aside_active {
+    right: 0rem;
+    transition: all 0.3s;
+}
+
+.menu_list {
+    position: absolute;
+    top: 0.9rem;
+    right: 0rem;
+    height: 0rem;
+    width: 2rem;
+    background: rgba(0, 0, 0, 0.50);
+    display: flex;
+    flex-direction: column;
+    transition: all 0.3s;
+    overflow: hidden;
+    color: #fff;
+}
+
+.menu_list li {
+    flex: 1;
+    line-height: 0.7rem;
+    text-align: center;
+}
+
+.menu_list li a {
+    color: #fff;
+}
+
+.menu_list_show {
+    height: 3rem;
+    transition: all 0.3s;
+}
